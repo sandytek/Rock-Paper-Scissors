@@ -5,9 +5,9 @@ function getComputerChoice() {
 let computerChoice;
 function computerSelection () {
 getComputerChoice();
-if (result < 1) {
+if (result == 0) {
     computerChoice = "Rock";
-} else if (result < 2) {
+} else if (result == 1) {
     computerChoice = "Scissors";
 } else {
     computerChoice = "Paper";
