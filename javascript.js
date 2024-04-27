@@ -82,6 +82,14 @@ function playGame () {
     playRound();
     playRound();
     playRound();
+
+    if (humanScore > computerScore) {
+        console.log("Congratulations! You win!");
+    } else if (humanScore < computerScore) {
+        console.log("You lose! Better luck next time!");
+    } else {
+        console.log("It's a tie!");
+    }
 }
 
 playGame ();
